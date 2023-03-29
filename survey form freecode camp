@@ -1,0 +1,118 @@
+<div id="textbox">submit
+  <h1 id="title"> Survey Form </h1><hr>
+  <p id="description"> Tell us about Scuba Diving </p>
+  </div>
+ <div class="container">
+   <form id="survey-form" method="GET">
+     
+    
+    <div class="rowtab">
+      <div class="labels">
+        <label id="name-label" for="name">*Full Name:</label>
+        </div>
+      <div class="righttab">
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+        </div>
+      </div>
+    <div class="rowtab">
+      <div class="labels">
+        <label id="email-label" for="email">*E_mail:</label>
+        </div>
+      <div class="righttab">
+        <input type="email" name="email" id="email" class="input-field" placeholder="Enter your e_mail" required>
+        </div>
+      </div>
+    <div class="rowtab">
+      <div class="labels">
+        <label id="number-label" for="age">*Age:</label>
+        </div>
+      <div class="righttab">
+        <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age" >
+        </div>
+      </div>
+    <div class="rowtab">
+      <div class="labels">
+        <label for="dropdown">Are you already a diver?</label>
+        </div>
+      <div class="righttab">
+        <select id="dropdown" name="dropdown" class="dropdown">
+          <option disabled value selected>Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          </select>
+        </div>
+      </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="userRating">If you are a diver, which certificate do you have?</label>
+        </div>
+      <div class="righttab">
+        <input name="radio-buttons" value="1" type="radio" class="userRating"> Open water <br>
+        <input name="radio-buttons" value="2" type="radio" class="userRating"> Advanced water <br>
+        <input name="radio-buttons" value="3" type="radio" class="userRating"> Rescue <br>
+        <input name="radio-buttons" value="1" type="radio" class="userRating"> Dive master <br>
+        <input name="radio-buttons" value="1" type="radio" class="userRating"> Other <br>
+      </div>
+      </div>
+    <div class="rowtab">
+      <div class="labels">
+         <label for="manytimes">How many times did you dive in a month? </label>
+        </div>
+      <div class="righttab">
+        <select id="manytimes" name="manytimes" class="dropdown">
+            <option disabled value selected>Select an option</option>
+            <option value="<=5">0-5</option>
+            <option value="<=10">6-10</option>
+            <option value="<=15">10-15</option>
+            <option value="<=20">15-20</option>
+            <option value=">20">more than 20</option>
+          </select>
+        </div>
+      </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label for="preferences">Who encourage you to dive?<br>(Check all that apply): </label>
+        </div>
+    <div class="righttab">
+      <input type="checkbox" name="family" value="1">Family<br>
+          <input type="checkbox" name="friends" value="2">Friends<br>
+          <input type="checkbox" name="buddy" value="3">Buddy<br>
+          <input type="checkbox" name="myself" value="4">Myself<br>
+          <input type="checkbox" name="other" value="5">Other<br>
+      </div>
+      </div>
+    <div class="rowtab">
+      <div class="labels">
+        <label for="recommend">Do you recommend diving to others? </label>
+        </div>
+      <div class="righttab">
+        <select id="recommend" name="recommend" class="dropdown">
+          <option disabled value selected>Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          </select>
+        </div>
+      </div>
+    <div class="rowtab">
+      <div class="labels">
+        <label id="text-label" for="text">Which location you are interesting to dive in: </label>
+        </div>
+      <div class="righttab">
+        <input autofocus type="text" name="text" id="text" class="input-field" placeholder="Enter the locations" required>
+        </div>
+      </div>
+    <div class="rowtab">
+      <div class="labels">
+        <label for="comments">Tell us any Comments or Suggestions?</label>
+      </div>
+      <div class="righttab">
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comments" placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+    </div>
+   <form id="submit">
+    <button id="submit" type="submit">Submit</button>
+   </form>
+     
+   </form>
+</div>
