@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html,body{
+  text-align: center;
+  font-family:'Abel', sans-serif;
+  min-width: 320px;
+  background: transparent;
+  color: #fff;
+}
+body {
+  font-size: 1.2em;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://wallpapercave.com/wp/d0lPwRR.jpg) center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+#textbox {
+  background-color: transparent;
+  margin: 2em auto;
+  padding: 20px;
+  width: 90%;
+  border-radius: 4px;
+  max-width: 900px;
+  padding-top: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.8em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 1em;
+  font-weight: bold;
+}
+p {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+hr {
+  width: 70%;
+  margin: 10px auto;
+}
+
+#survey-form {
+  margin: auto;
+  width: 80%;
+  max-width: 900px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+.righttab {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid  #1a1aff;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: bold;
+}
+::-webkit-input-placeholder {
+   font-style: italic;
+  font-weight: 300;
+}
+input {
+  margin: 7px;
+}
+.dropdown {
+  padding: 5px;
+  border: 1px solid #1a1aff;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 15px;
+  height: 35px;
+  width: 140px;
+  margin: 10px;  
+  margin-top: 15px;
+}
+.userRatings {
+  float: left;
+  margin-right: 5px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 1px solid;
+  text-align: center;
+}
+
+@media screen and (max-width: 833px) {
+  body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://wallpapercave.com/wp/d0lPwRR.jpg) center no-repeat fixed;
+  background-size: cover;
+}
+   h1 {
+    font-size: 2em;
+  }
+  
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .righttab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+    margin: auto;
+  }
+  
+}
